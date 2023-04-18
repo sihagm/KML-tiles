@@ -16,8 +16,8 @@ file_kml = path+File_name+".kml"
 
 Ystart = float(input('Enter start Lat (WGS84, decimal degrees), upper left corner: '))
 Xstart = float(input('Enter start Lon (WGS84, decimal degrees), upper left corner: '))
-Xspacing = int(input('Enter Lat spacing (meters): '))
-Yspacing = int(input('Enter Lon spacing (meters): '))
+Xspacing = int(input('Enter Lon spacing (meters): '))
+Yspacing = int(input('Enter Lat spacing (meters): '))
 Ynumber = int(input('Enter number of fields in Lat: '))
 Ynumber = Ynumber+1
 Xnumber = int(input('Enter number of fields in Lon: '))
